@@ -1,0 +1,55 @@
+.inputTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #dbe2ef;
+  margin-bottom: 1rem;
+
+  &Label {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+    padding: 15px;
+    gap: 10px;
+    margin-right: 1rem;
+
+    &Checkbox {
+      height: 20px;
+      width: 20px;
+      cursor: pointer;
+    }
+
+    &Title {
+      font: 1.2rem/1.2rem 'Roboto', sans-serif;
+      width: 100%;
+      padding: 5px;
+    }
+
+    &Input {
+      font: 1.2rem/1.2rem 'Roboto', sans-serif;
+      padding: 5px;
+      background: none;
+      border: 0;
+      outline: none;
+      width: 100%;
+      box-shadow: 0 4px 0 -3px #3F72AF;
+    }
+  }
+
+  &Button {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 0;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

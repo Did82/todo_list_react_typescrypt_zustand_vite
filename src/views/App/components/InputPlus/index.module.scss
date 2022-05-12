@@ -1,0 +1,40 @@
+.form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+
+  &Input {
+    flex-basis: 90%;
+    border: 1px solid #b1b1b1;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 9px 10px;
+    margin: 0;
+    font: 1rem/1.4 'Roboto', sans-serif;
+    background: #dbe2ef;
+    //outline: none;
+    &:focus {
+      outline: none;
+      border: 1px solid #3F72AF;
+    }
+
+
+  }
+
+  &Button {
+    margin: 0;
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background: #3F72AF;
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

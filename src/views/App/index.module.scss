@@ -1,0 +1,16 @@
+.article {
+  background: aliceblue;
+  min-width: 600px;
+  border-radius: 20px;
+  padding: 2rem 4rem;
+
+  &Title {
+  font-size:3rem;
+  margin-bottom: 0.3em;
+  text-align: center;
+  }
+
+  &Section {
+    margin-bottom: 1rem;
+  }
+}
